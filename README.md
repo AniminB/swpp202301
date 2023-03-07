@@ -17,8 +17,12 @@
     + Place: Bldg 302 Rm 315-1
 
 **Check the repository and issues page on a daily basis!**  
-We're not using eTL on this course, and all important updates and notices
-will only be uploaded on GitHub!
+All important updates and notices will be uploaded only on GitHub!
+*Updates* include (but are not limited to) assignment, project, class policy, etc.
+
+We'll *rarely* be using eTL on this course!
+* We may instruct you to submit some of the assignments via eTL
+* Practice session videos will be uploaded on eTL, no later than the following Friday
 
 ## Announcements 
 
