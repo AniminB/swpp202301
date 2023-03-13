@@ -29,3 +29,7 @@ We'll *rarely* be using eTL on this course!
 ## Projects
 
 ## Assignments
+- Mar. 13: Assignment 1 has been announced. Deadline is Mar. 19, 11:59 PM.
+  See here: https://github.com/snu-sf-class/swpp202301-assn1
+  - If you cannot compile `word.cpp`, please check whether your `g++` supports `c++17`. `g++ -version` should print version 7 or upper.
+  - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/185699)
