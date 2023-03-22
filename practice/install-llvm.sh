@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # Install necessary dependencies
-# Package names may slightly differ in macOS (brew)
 sudo apt update
 sudo apt -y install git g++ cmake ninja-build python3-distutils zlib1g-dev \
 libncurses-dev
 
 # Download LLVM source
-git clone -b llvmorg-16.0.0 https://github.com/llvm/llvm-project.git --depth 1
+git clone -b llvmorg-15.0.7 https://github.com/llvm/llvm-project.git --depth 1
 cd llvm-project
 
 # Create LLVM installation directory
@@ -15,7 +14,7 @@ LLVM_DIR=~/llvm-swpp # Edit this directory
 mkdir $LLVM_DIR
 
 # Build LLVM
-# You may erase line 27-28 if your computer is powerful enough
+# You may erase line 25-26 if your computer is powerful enough
 cmake -G Ninja -S llvm -B build \
     -DLLVM_ENABLE_PROJECTS="clang;lldb;compiler-rt" \
     -DLLVM_INSTALL_UTILS=ON \

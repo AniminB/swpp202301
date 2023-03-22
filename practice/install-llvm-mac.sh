@@ -6,7 +6,7 @@ brew upgrade
 brew install git cmake ninja zlib ncurses
 
 # Download LLVM source
-git clone -b llvmorg-16.0.0 https://github.com/llvm/llvm-project.git --depth 1
+git clone -b llvmorg-15.0.7 https://github.com/llvm/llvm-project.git --depth 1
 cd llvm-project
 
 # Create LLVM installation directory
@@ -25,6 +25,7 @@ cmake -G Ninja -S llvm -B build \
     -DCOMPILER_RT_ENABLE_IOS=OFF \
     -DLLDB_INCLUDE_TESTS=OFF \
     -DLLDB_USE_SYSTEM_DEBUGSERVER=ON \
+    -DBUILD_SHARED_LIBS=ON \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=$LLVM_DIR
 cmake --build build
