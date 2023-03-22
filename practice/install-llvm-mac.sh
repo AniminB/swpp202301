@@ -2,6 +2,7 @@
 
 # Install necessary dependencies
 brew update
+brew upgrade
 brew install git cmake ninja zlib ncurses
 
 # Download LLVM source
@@ -24,7 +25,6 @@ cmake -G Ninja -S llvm -B build \
     -DCOMPILER_RT_ENABLE_IOS=OFF \
     -DLLDB_INCLUDE_TESTS=OFF \
     -DLLDB_USE_SYSTEM_DEBUGSERVER=ON \
-    -DBUILD_SHARED_LIBS=ON \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=$LLVM_DIR
 cmake --build build
