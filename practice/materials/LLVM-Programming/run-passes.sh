@@ -24,6 +24,9 @@ if [ "$1" != "run" ]; then
 
   CXX=$2/clang++
   CXXFLAGS="$CXXFLAGS -std=c++17"
+  if [[ $(grep -i microsoft /proc/version) ]]; then
+    CXXFLAGS="$CXXFLAGS -fPIC"
+  fi
   set -e
 
   $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS hello.cpp -o ./libHello$EXT -shared
