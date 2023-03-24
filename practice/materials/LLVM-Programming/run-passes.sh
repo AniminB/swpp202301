@@ -4,7 +4,7 @@ if [ "$#" -ne 2 ]; then
   echo "run-passes build <clang dir>"
   echo "run-passes run <clang dir>"
   echo "run-passes all <clang dir>"
-  echo "ex) ./run-passes.sh all ~/my-llvm/bin"
+  echo "ex) ./run-passes.sh all ~/llvm-swpp/bin"
   exit 1
 fi
 

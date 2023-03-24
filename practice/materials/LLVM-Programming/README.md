@@ -2,5 +2,5 @@
 
 - Pass examples:
 ```
-./run-passes all <~/my-llvm/bin>
+./run-passes all <~/llvm-swpp/bin>
 ```
