@@ -33,3 +33,7 @@ We'll *rarely* be using eTL on this course!
   See here: https://github.com/snu-sf-class/swpp202301-assn1
   - If you cannot compile `word.cpp`, please check whether your `g++` supports `c++17`. `g++ -version` should print version 7 or upper.
   - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/185699)
+- Mar. 24: Assignment 2 has been announced. Deadline is Apr. 4, 11:59 PM.
+  See here: [Assignment 2 directory](practice/assignments/assn2)
+  - You should have built LLVM on your computer in order to do this assignment.
+  - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/188816)
