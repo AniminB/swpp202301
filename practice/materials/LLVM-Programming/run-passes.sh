@@ -11,9 +11,11 @@ fi
 if [[ "$OSTYPE" == "darwin"* ]]; then
   EXT=".dylib"
   ISYSROOT="-isysroot `xcrun --show-sdk-path`"
+  PICFLAG=""
 else
   EXT=".so"
   ISYSROOT=
+  PICFLAG="-fPIC"
 fi
 
 if [ "$1" != "run" ]; then
@@ -23,10 +25,7 @@ if [ "$1" != "run" ]; then
   LIBS=`$LLVMCONFIG --libs core irreader bitreader support --system-libs`
 
   CXX=$2/clang++
-  CXXFLAGS="$CXXFLAGS -std=c++17"
-  if [[ $(grep -i microsoft /proc/version) ]]; then
-    CXXFLAGS="$CXXFLAGS -fPIC"
-  fi
+  CXXFLAGS="$CXXFLAGS $PICFLAG -std=c++17"
   set -e
 
   $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS hello.cpp -o ./libHello$EXT -shared
