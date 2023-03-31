@@ -37,3 +37,7 @@ We'll *rarely* be using eTL on this course!
   See here: [Assignment 2 directory](practice/assignments/assn2)
   - You should have built LLVM on your computer in order to do this assignment.
   - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/188816)
+- Mar. 31: Assignment 3 has been announced. Deadline is Apr. 11, 11:59 PM.
+  See here: [Assignment 3 directory](practice/assignments/assn3)
+  - You should have built LLVM on your computer in order to do this assignment.
+  - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/190406)
