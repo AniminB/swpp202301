@@ -116,13 +116,14 @@ from the entry to BB1.
 ./unreachable.sh <LLVM bin directory(e.g: ~/llvm-swpp/bin)>
 ```
 
-##### Setting VSCode
+##### Setting .clangd
 
-Setting VSCode to successfully find header files will be very helpful.
-You will need to update your includePath
-( https://stackoverflow.com/a/48015407 ).
-Please add the LLVM installation's include directory to the includePath:
+Unless you have LLVM installed in default system directory, clangd won't be
+able to automatically detect LLVM headers and raise include errors,
+squiggling red lines all over the code.
 
-```
-/<installed-llvm-path>/include
-```
+You can configure clangd to look for other include paths as well using
+[`.clangd`](practice/assignments2/assn3/.clangd) file. Add the LLVM include
+directory into `--include-directory`, and restart the language server
+(`Command palette -> clangd: Restart language server`). Clangd will then
+start working properly.
