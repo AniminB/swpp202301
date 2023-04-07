@@ -27,6 +27,10 @@ We'll *rarely* be using eTL on this course!
 ## Announcements 
 
 ## Projects
+- Apr. 4: Please submit your team by Apr. 10 (https://github.com/snu-sf-class/swpp202301/issues/23)
+- Apr. 6: [assembly specification](project/asmspec.pdf) is announced.
+- Apr. 11: We will announce teams for project.
+- Apr. 13: Each team will introduce themselves for 3~5 minutes (https://github.com/snu-sf-class/swpp202301/issues/25)
 
 ## Assignments
 - Mar. 13: Assignment 1 has been announced. Deadline is Mar. 19, 11:59 PM.
@@ -41,3 +45,7 @@ We'll *rarely* be using eTL on this course!
   See here: [Assignment 3 directory](practice/assignments/assn3)
   - You should have built LLVM on your computer in order to do this assignment.
   - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/190406)
+- Apr. 7: Assignment 4 has been announced. Deadline is Apr. 21, 11:59 PM.
+  See here: [Assignment 4 directory](practice/assignments/assn4)
+  - You should have built LLVM on your computer in order to do this assignment.
+  - Submit to [eTL](https://myetl.snu.ac.kr/courses/240431/assignments/191857)
