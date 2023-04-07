@@ -32,19 +32,19 @@ BB_end:
 The `icmp` instruction used by `br` will be in the `br`'s basic block.
 For example, `%cond` above is always located in `ENTRY` block.
 
-To check your implementation, please use `run.sh`.
+To check your implementation, please use `run-propinteq.sh`.
 This will run 11 FileChecks in `data` directory.
 Note that they are not full tests; more tests can be added by TA when grading
 your homework.
 
 ```
-./run.sh all <llvm-dir>/bin
+./run-propinteq.sh all <llvm-dir>/bin
 # To build propinteq.cpp..
-./run.sh build <llvm-dir>/bin
+./run-propinteq.sh build <llvm-dir>/bin
 # To see the output of input.ll..
-./run.sh run <llvm-dir>/bin
+./run-propinteq.sh run <llvm-dir>/bin
 # To run tests..
-./run.sh test <llvm-dir>/bin
+./run-propinteq.sh test <llvm-dir>/bin
 ```
 
 #### Correctness of Optimization
