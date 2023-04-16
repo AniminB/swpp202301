@@ -28,9 +28,12 @@ We'll *rarely* be using eTL on this course!
 
 ## Projects
 - Apr. 4: Please submit your team by Apr. 10 (https://github.com/snu-sf-class/swpp202301/issues/23)
-- Apr. 6: [assembly specification](project/asmspec.pdf) is announced.
-- Apr. 11: We will announce teams for project.
-- Apr. 13: Each team will introduce themselves for 3~5 minutes (https://github.com/snu-sf-class/swpp202301/issues/25)
+- Apr. 6: [Assembly specification](project/asmspec.pdf) is announced.
+- Apr. 11: Teams for project are announced (https://github.com/snu-sf-class/swpp202301/issues/30)
+- Apr. 13: [Project guideline](project/project.pdf) is announced.
+- Apr. 17: Project repositories are published (https://github.com/snu-sf-class/swpp202301/issues/32)
+- Apr. ~~13~~18: Each team will introduce themselves for 3~5 minutes (~~https://github.com/snu-sf-class/swpp202301/issues/25~~
+https://github.com/snu-sf-class/swpp202301/issues/31)
 
 ## Assignments
 - Mar. 13: Assignment 1 has been announced. Deadline is Mar. 19, 11:59 PM.
