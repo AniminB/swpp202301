@@ -8,3 +8,9 @@ Otherwise applying the patch will break the code and won't compile.
 cd practice/alive2 # or Alive2 repository
 git apply ../../project/alive2-swpp-intrinsics.patch # or path to patch
 ```
+
+The patch adds a script `build.sh` into the repo directory.
+Modify the `LLVM_DIR` and `Z3_DIR` in the script, and run the script.
+```bash
+./build.sh
+```
